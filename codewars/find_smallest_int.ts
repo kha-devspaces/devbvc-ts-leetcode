@@ -1,14 +1,11 @@
-export function findSmallestInt(arr: number[]): number {
-	let small = arr[0];
+export function findSmallestInt(args: number[]): number {
+	let small = args[0];
 
-	for (let i = 1; i < arr.length; i++) {
-		if (arr[i] < small) {
-			small = arr[i];
+	for (let i = 1; i < args.length; i++) {
+		if (args[i] < small) {
+			small = args[i];
 		}
 	}
 
 	return small;
 }
-
-const exp1 = [34, 15, 88, 2, 6, -5];
-const exp2 = [34, -345, -1, 100];
