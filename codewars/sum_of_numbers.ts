@@ -1,4 +1,4 @@
-function getSum(a: number, b: number): number {
+export function getSum(a: number, b: number): number {
 	if (a === b) {
 		return a;
 	}
@@ -14,10 +14,3 @@ function getSum(a: number, b: number): number {
 
 	return sum;
 }
-
-console.log(getSum(1, 0)); // Output: 1
-console.log(getSum(1, 2)); // Output: 3
-console.log(getSum(0, 1)); // Output: 1
-console.log(getSum(1, 1)); // Output: 1
-console.log(getSum(-1, 0)); // Output: -1
-console.log(getSum(-1, 2)); // Output: 2
