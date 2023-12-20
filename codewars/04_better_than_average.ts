@@ -13,7 +13,7 @@
 // [2, 3], 5 => true
 
 export function betterThanAverage(classPoints: number[], yourPoints: number) : boolean {
-    const sum: number = classPoints.reduce( (a,b) => {return a+b},0 )
+    const sum: number = classPoints.reduce( (a,b) => a+b )
     const avg: number = sum/classPoints.length
     if (yourPoints > avg) return true
     else return false
