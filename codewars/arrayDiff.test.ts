@@ -1,5 +1,4 @@
 import { expect, test } from "bun:test";
-
 import { arrayDiff } from "./arrayDiff";
 
 test("should get ([1,2,3,4], [2,4]) from str patter = [1, 3]", () => {
