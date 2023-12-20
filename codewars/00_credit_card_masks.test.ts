@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { maskify } from "./credit_card_mask";
+import { maskify } from "./00_credit_card_mask";
 
 test("should get ####1234 from str patter = abcd1234", () => {
 	expect(maskify("abcd1234")).toEqual("####1234");
