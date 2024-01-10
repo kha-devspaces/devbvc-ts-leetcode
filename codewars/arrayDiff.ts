@@ -1,6 +1,6 @@
 export function arrayDiff(a: number[], b: number[]): number[] {
     // a = [] return []
-    // a = [], b = [4,5] return []
+    // a = [], b =  [4,5] return []
     // a = [1,2,3,4], b = [2,3] return [1,4]
     if(a.length === 0) return []
 
