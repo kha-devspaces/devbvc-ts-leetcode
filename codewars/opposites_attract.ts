@@ -7,7 +7,7 @@ export function lovefunc(flower1: number, flower2: number): boolean{
 }
 
 
-console.log('got ->',(lovefunc(1, 4) )) // true
+console.log('got  ->',(lovefunc(1, 4) )) // true
  console.log('got ->',(lovefunc(4, 2 ))) //false
 console.log('got ->',(lovefunc(0, 1) )) // true
 console.log('got ->',(lovefunc(0, 0) )) //false
