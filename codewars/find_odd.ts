@@ -19,8 +19,8 @@ export const findOdd = (xs: number[]): number => {
   
     return 0;
   };
-  // result = result ^ num ;
-        // result ^= num;
+  // result = result ^ num   ;
+        //   result ^= num;
   
 
   console.log('got ->', findOdd([1,1,17,1,1,1,1]))

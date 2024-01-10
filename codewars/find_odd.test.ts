@@ -1,7 +1,7 @@
 import { expect, test } from "bun:test";
 import { findOdd } from "./find_odd";
 
-test("should get [1,1,17,1,1,1,1] from str patter = 17", () => {
+test("should get [1,1,17,1,1,1,1] from str   patter = 17", () => {
 	expect(findOdd([1,1,17,1,1,1,1])).toEqual(17);
 });
 test("should get [20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5] from str patter = 5", () => {
