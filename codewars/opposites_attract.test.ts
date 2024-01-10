@@ -2,7 +2,7 @@ import { expect, test } from "bun:test";
 import { lovefunc } from "./opposites_attract";
 
 
-test("should get (1,4) from str patter = ", () => {
+test("should get  (1,4) from str patter = ", () => {
   expect(lovefunc(1,4)).toEqual(true);
 });
 test("should get (4,2) from str patter = ", () => {
