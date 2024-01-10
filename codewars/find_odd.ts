@@ -19,7 +19,7 @@ export const findOdd = (xs: number[]): number => {
   
     return 0;
   };
-  // result = result ^ num;
+  // result = result ^ num ;
         // result ^= num;
   
 
