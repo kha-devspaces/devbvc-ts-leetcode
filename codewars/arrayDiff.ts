@@ -6,9 +6,8 @@ export function arrayDiff(a: number[], b: number[]): number[] {
 
   const diff = [];
   for (const ai of a) {
-    if (b.includes(ai)) {
-      continue;
-    } else {
+    if (b.includes(ai)) continue;
+    else {
       diff.push(ai);
     }
   }
