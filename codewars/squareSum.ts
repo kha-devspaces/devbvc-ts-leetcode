@@ -6,7 +6,7 @@ export function squareSum(numbers: number[]): number {
   const result = numbers.reduce((sum, x) => {
     const squaredValue = x ** 2;
     const newSum = sum + squaredValue;
-    // console.log(x: ${x}, x^2: ${squaredValue}, sum: ${newSum});
+    // console.log(x: ${x}, x^2: ${squaredValue},    sum: ${newSum} );
 
     return newSum;
   }, 0);
