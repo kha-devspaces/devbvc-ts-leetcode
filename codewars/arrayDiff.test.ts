@@ -5,7 +5,7 @@ import { arrayDiff } from "./arrayDiff";
 test("should get ([1,2,3,4], [2,4]) from str patter = [1, 3]", () => {
   expect(arrayDiff([1, 2, 3, 4], [2, 4])).toEqual([1, 3]);
 });
-test("should get ([]) from str patter = []", () => {
+test("should get ([])  from str patter = []", () => {
   expect(arrayDiff([], [])).toEqual([]);
 });
 
