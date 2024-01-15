@@ -17,6 +17,10 @@ test("false from '     '", () => {
     expect(alphanumeric("     ")).toEqual(false);
 });
 
+test("false from ''", () => {
+    expect(alphanumeric("")).toEqual(false);
+});
+
 // "Mazinkaiser" -> true
 // "hello world_" -> false
 // "PassW0rd" -> true

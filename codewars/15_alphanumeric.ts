@@ -17,6 +17,6 @@
 // "     " -> false
 
 export function alphanumeric(string: string): boolean {
-    return string.split('').every(char => /[a-z0-9]/i.test(char));
+    return string.length > 0 && string.split('').every(char => /[a-z0-9]/i.test(char));
   }
   
